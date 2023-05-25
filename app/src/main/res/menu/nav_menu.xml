@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item android:title="Home"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_page"/>
+        <item android:title="Lovely Food Page"
+            android:id="@+id/nav_lovely"
+            android:icon="@drawable/choised"/>
+        <item android:title="Do not know"
+            android:id="@+id/nav_doNotKnow"
+            android:icon="@drawable/icon"/>
+        <item android:title="Orderd"
+            android:id="@+id/nav_ordered"
+            android:icon="@drawable/orderd"/>
+
+    </group>
+
+
+    <item android:title="">
+    <menu>
+        <item android:title="Log Out"
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/logout"
+            />
+
+    </menu>
+
+
+    </item>
+</menu>
